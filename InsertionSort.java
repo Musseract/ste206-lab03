@@ -5,7 +5,11 @@ public class InsertionSort {
 
 
     }
-    public static void ins(){
+    public static void insertionSort(){
+
+    }
+    public static void sort(){
+        insertionSort();
 
     }
 }
