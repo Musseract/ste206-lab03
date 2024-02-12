@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-public class InsertionSort {
-    public static void main(String[] args){
-        System.out.println("Hello");
-
-
-
-    }
-    public static void insertionSort(){
-        public static void insertionSort(int[] array) {
-            for (int i = 1; i < array.length; i++) {
-                int key = array[i];
-                int j = i - 1;
-                while (j >= 0 && array[j] > key) {
-                    array[j + 1] = array[j];
-                    j = j - 1;
-                }
-                array[j + 1] = key;
-            }
-        }
-        public static void sort(int[] array) {
-            insertionSort(array);
-        }
-
-    }
-
-}
-=======
 public class Sorter {
 
     // Main method for testing the selectionSort method
@@ -35,6 +7,10 @@ public class Sorter {
         for (int i : myArray) {
             System.out.print(i + " ");
         }
+    }
+
+    public static void sort(int[] array) {
+        selectionSort(array);
     }
 
     // SelectionSort method
@@ -52,4 +28,3 @@ public class Sorter {
         }
     }
 }
->>>>>>> 7d6452d8e4d56191c61d8e91e326276e87dc339b
