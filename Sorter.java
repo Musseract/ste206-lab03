@@ -7,13 +7,20 @@ public class InsertionSort {
 
     }
     public static void insertionSort(){
-        System.out.println("hello2");
+        public static void insertionSort(int[] array) {
+            for (int i = 1; i < array.length; i++) {
+                int key = array[i];
+                int j = i - 1;
+                while (j >= 0 && array[j] > key) {
+                    array[j + 1] = array[j];
+                    j = j - 1;
+                }
+                array[j + 1] = key;
+            }
+        }
 
     }
-    public static void sort(){
-        insertionSort();
 
-    }
 }
 =======
 public class Sorter {
