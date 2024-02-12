@@ -6,6 +6,7 @@ public class InsertionSort {
 
     }
     public static void insertionSort(){
+        System.out.println("hello2");
 
     }
     public static void sort(){
